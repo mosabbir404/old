@@ -75,7 +75,7 @@ def main():
         fuckMyxmosabbirold("100000")
     if select == "2":
         fuckMyxmosabbirold("100000")
-    	print(" FUCK RANDOM")
+    	print("FUCK RANDOM")
     if select == "1":
     	print("COMIN SOON")
     if select == "4":
