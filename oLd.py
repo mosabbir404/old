@@ -1,3 +1,8 @@
+#OWNER MOSABBIR #FUCK_XX
+#mosabbirold_FUCK_XNX #FUCK_XX
+#GIFT BY MOSABBIR #FUCK_XX
+#OPENED BY MOSABBIR #FUCK_XX
+#HELP BY SIKRA NIKNAME(H41N4)
 import os, sys, json, uuid, string, random, requests
 from concurrent.futures import ThreadPoolExecutor
 import os, sys, json, uuid, string, random, requests
