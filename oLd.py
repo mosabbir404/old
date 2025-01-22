@@ -139,6 +139,7 @@ def Fucking_life(ids, passlist):
         pass
         
 #______________RANDDOM DEF_______________#
+
 def fuckMyxmosabbirrandom:
     ____banner____()
     os.system("xdg-open https://t.me/mosabbirhossainsajib")
