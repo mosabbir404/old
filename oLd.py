@@ -218,7 +218,6 @@ def FUCK_FRIEND(ids,passlist):
                 continue
         loop+=1
     except:
-        pass"""
-        }
+        pass"}
 if __name__ == "__main__":
     main()
