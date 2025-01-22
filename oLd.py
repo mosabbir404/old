@@ -111,7 +111,7 @@ def fuckMyxmosabbirold(series):
             Fuck_xnxx.submit(Fucking_life, ids, passlist)
     sys.exit("\n-------------------------------")
     
-______________OLD METHOD_______________ 
+#______________OLD METHOD_______________# 
 
 def Fucking_life(ids, passlist):
     global loop, oks, cps
