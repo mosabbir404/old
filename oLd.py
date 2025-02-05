@@ -144,7 +144,7 @@ def FUCK_XNXXX():
     user=[]
     clear()
     ____banner____()
-    os.system("xdg-open https://t.me/asif_tricker95")
+    os.system("xdg-open https://t.me/mosabbirhossainsajib")
     print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
     code=input(' ENTER SIM CODE >> ')
     
